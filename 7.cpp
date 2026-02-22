@@ -1,3 +1,4 @@
+// Question 7 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -12,4 +13,5 @@ int main(){
         if (b>c) cout<<"player 2 is ahead";
         else if (c>a) cout<<"player 3 is ahead";
     }
+
 }
