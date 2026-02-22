@@ -1,3 +1,4 @@
+// Question 11 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -11,4 +12,5 @@ int main(){
     if(qty>1000) discount=total*10/100;
     total=total-discount;
     cout<<"your total is:" <<total <<endl<<"you got discount of:"<<discount;
+
 }
