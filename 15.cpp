@@ -1,3 +1,4 @@
+// Question 15 lab manual
 #include <iostream>
 using namespace std;
 
@@ -16,3 +17,4 @@ int main()
     cout<<"largest sales figure is:"<<max;
     return 0;
 }
+
