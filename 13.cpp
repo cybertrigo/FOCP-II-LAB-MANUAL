@@ -1,3 +1,4 @@
+// Question 13 lab manual
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -22,3 +23,4 @@ int main(){
     else cout<<"roots are imaginary";
     return 0;
 }
+
