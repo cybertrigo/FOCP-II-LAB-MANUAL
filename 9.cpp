@@ -1,3 +1,4 @@
+// Question 9 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -9,4 +10,5 @@ int main(){
     else if (a>=0 && a<=9) cout<<"given letter is a number";
     else if(a>='a' && a<='z') cout<<"given letter is a consonant";
     else cout<<"the letter is neither a number nor vowel nor consonant";
+
 }
