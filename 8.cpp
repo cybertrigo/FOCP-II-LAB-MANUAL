@@ -1,3 +1,4 @@
+// Question 8 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -8,4 +9,5 @@ int main(){
     else if(id%5==0) cout<<"you are tagged as fuzz";
     else if(id%3==0) cout<<"you are tagged as buzz";
     else cout<<"you are not tagged";
+
 }
