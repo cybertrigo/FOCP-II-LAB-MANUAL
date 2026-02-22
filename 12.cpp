@@ -1,3 +1,4 @@
+// Question 12 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -7,4 +8,5 @@ int main(){
     if(a==b && b==c)cout<<"the triangle is equilateral";
     else if(a==c || a==b || b==c) cout<<"the triangle is isosceles";
     else cout<<"the triangle is scalene";
+
 }
