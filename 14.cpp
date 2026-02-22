@@ -1,3 +1,4 @@
+// Question 14 lab manual
 #include <iostream>
 using namespace std;
 int main(){
@@ -20,4 +21,5 @@ int main(){
         if(a=='n') break;
 }
     
+
 }
