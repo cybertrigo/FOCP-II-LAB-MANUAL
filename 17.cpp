@@ -2,7 +2,6 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 int main() {
     int n;
     cout<<"Enter a number: ";
@@ -29,4 +28,5 @@ int main() {
     }
     if(arm==n) cout<<"armstrong number\n";
     else cout<<"not armstrong number\n";
+
 }
