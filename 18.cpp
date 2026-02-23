@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main() {
     string id;
     cout<<"enter ID: ";
@@ -19,4 +18,5 @@ int main() {
     }
     if (check) cout<<"ID is a palindrome.";
     else cout<<"ID is NOT a palindrome.";
+
 }
