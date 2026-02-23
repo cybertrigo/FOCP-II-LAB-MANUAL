@@ -8,11 +8,10 @@ int main() {
     cin>>n;
     int sum=0;
     for(int i=1;i<=n/2;i++) {
-        if(n%i==0)
-            sum+=i;
+        if(n%i==0) sum+=i;
     }
     if(sum==n && n!=0) cout<<"perfect number\n";
-    else cout << "Not a Perfect Number\n";
+    else cout<<"not a perfect Number\n";
 
     int temp = n, digits = 0;
     while(temp > 0) {
@@ -30,3 +29,4 @@ int main() {
     else cout<<"not armstrong number\n";
 
 }
+
